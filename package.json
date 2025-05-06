@@ -1,0 +1,29 @@
+{
+  "name": "js-project-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "dev": "nodemon src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoxSun-UA/node-js-project-server.git"
+  },
+  "keywords": [],
+  "author": "FoxSun <foxsun.ua@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoxSun-UA/node-js-project-server/issues"
+  },
+  "homepage": "https://github.com/FoxSun-UA/node-js-project-server#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
